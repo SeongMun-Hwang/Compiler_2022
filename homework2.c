@@ -1,10 +1,8 @@
 #include <stdio.h>
 
-
-
 int main(){
     char token[10];
-    scanf("%c",token);
-    printf("%c",token);
+    scanf(" %s",token);
+    printf("%s",token);
     return 0;
 }
